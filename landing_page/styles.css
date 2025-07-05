@@ -1,0 +1,128 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    justify-content: flex-end;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    gap: 20px;
+}
+.logo {
+    align-items: baseline;
+    font-weight: bold;
+    flex-grow: 1;
+}
+.link {
+    color: white;
+    color: #E5E7EB;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.hero-sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    
+}
+.hero-image {
+    flex: 1;
+    height: 300px;
+    background-color: gray;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.info-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+    justify-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .info-div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        max-width: 400px;
+    }
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    align-self: center;
+}
+.item-text {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
+}

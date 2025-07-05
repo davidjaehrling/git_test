@@ -1,0 +1,24 @@
+* {
+  outline: 2px solid red;
+}
+li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: blue;
+    text-align: center
+}
+.ingredients {
+    color: green;
+    font: italic;
+}
+
+.ingredients.important {
+    color: red;
+    font-weight: bold;
+}
+
+.ancestor .contents {
+    color: purple;
+
+}

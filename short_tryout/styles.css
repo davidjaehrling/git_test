@@ -1,0 +1,95 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 1em 0;
+}
+
+section {
+  padding: 2em;
+  margin: 1em auto;
+  background: white;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Normal Flow */
+.normal-flow img {
+  width: 150px;
+  display: block;
+  margin-top: 1em;
+}
+
+/* Float */
+.floated-img {
+  float: left;
+  margin: 0 1em 1em 0;
+  border-radius: 8px;
+}
+
+/* Positioning */
+.position-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #333;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin-top: 5px;
+  display: none;
+}
+
+.position-wrapper:hover .tooltip {
+  display: block;
+}
+
+/* Flexbox */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 1em 0;
+}
+
+.flex-container div {
+  background: #e0f7fa;
+  padding: 3em;
+  margin: 2em 0;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-container div {
+  background: #fce4ec;
+  padding: 1.5em;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5em;
+}

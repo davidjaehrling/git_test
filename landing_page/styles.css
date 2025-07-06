@@ -26,7 +26,6 @@
     flex-grow: 1;
 }
 .link {
-    color: white;
     color: #E5E7EB;
 }
 
@@ -118,6 +117,62 @@
     font-size: 18px;
     text-align: center;
     width: 150px;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.quote-author {
+    font-weight: bold;
+    font-size: 26px;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #3882F6;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 18px;
+}
+.action-text {
+    color: white;
+    text-align: left;
+}
+.action-text h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+.action-text p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.action-button {
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    align-self: center;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .footer {

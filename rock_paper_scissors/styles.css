@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Game Container */
+.game {
+  background-color: #ffffff;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Choices Section */
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.choice {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+  background-color: #388e3c;
+}
+
+/* Result Section */
+.result {
+  text-align: center;
+}
+
+.result p {
+  margin-bottom: 10px;
+}
+
+/* End Container */
+#end-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#end-container h3 {
+  font-size: 1.5rem;
+  color: #d32f2f;
+}
+
+#restart {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#restart:hover {
+  background-color: #b71c1c;
+}
